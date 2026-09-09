@@ -6,7 +6,7 @@ to one consumer, so a re-publish of one domain never disturbs the other.
 
 | File | Products | Consumer |
 |---|---|---|
-| `routing.json` | `rescue`, `railway-crossings`, `rescue-routing`, `-skeleton`, `rescue-routing-<region>` | the routing engine |
+| `routing.json` | `rescue`, `railway-crossings`, `rescue-routing`, `-skeleton`, `rescue-routing-<region>` — routing packs at **schema v10** (`data-2026-09-09-routing-v10` release) | the routing engine |
 | `basemap.json` | `basemap-vector-<region>`, `basemap-raster-<region>` | the map service (not published yet) |
 
 The repo root `manifest.json` stays the 2-product set the current TestFlight
