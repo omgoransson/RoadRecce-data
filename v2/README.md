@@ -6,8 +6,8 @@ to one consumer, so a re-publish of one domain never disturbs the other.
 
 | File | Products | Consumer |
 |---|---|---|
-| `routing.json` | `rescue`, `railway-crossings`, `rescue-routing`, `-skeleton`, `rescue-routing-<region>` — routing packs at **schema v11** — `point_obstacle` table (`data-2026-09-09-routing-v11` release) | the routing engine |
-| `basemap.json` | `basemap-vector-<region>`, `basemap-raster-<region>` | the map service (not published yet) |
+| `routing.json` | `rescue`, `railway-crossings`, `rescue-routing`, `-skeleton`, `rescue-routing-<region>` — routing packs at **schema v11** — standalone national skeleton and regional packs without duplicated skeleton (`data-2026-09-19-routing-v11` release) | the routing engine |
+| `basemap.json` | `basemap-vector-<region>` — regional MapLibre PMTiles detail packs (`data-2026-09-19-maplibre-pmtiles` release) | the map service |
 
 The repo root `manifest.json` stays the 2-product set the current TestFlight
 build can decode.
